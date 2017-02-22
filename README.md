@@ -1,4 +1,6 @@
 # minimalistic-crypto-utils
+[![Build Status](https://secure.travis-ci.org/indutny/minimalistic-crypto-utils.svg)](http://travis-ci.org/indutny/minimalistic-crypto-utils)
+[![NPM version](https://badge.fury.io/js/minimalistic-crypto-utils.svg)](http://badge.fury.io/js/minimalistic-crypto-utils)
 
 Very minimal utils that are required in order to write reasonable JS-only
 crypto module.
