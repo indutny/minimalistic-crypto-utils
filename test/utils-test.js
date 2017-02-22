@@ -7,6 +7,7 @@ describe('utils', () => {
   it('should convert to array', () => {
     assert.deepEqual(utils.toArray('1234', 'hex'), [ 0x12, 0x34 ]);
     assert.deepEqual(utils.toArray('1234'), [ 49, 50, 51, 52 ]);
+    assert.deepEqual(utils.toArray('1234', 'utf8'), [ 49, 50, 51, 52 ]);
     assert.deepEqual(utils.toArray('\u1234234'), [ 18, 52, 50, 51, 52 ]);
     assert.deepEqual(utils.toArray([ 1, 2, 3, 4 ]), [ 1, 2, 3, 4 ]);
   });
